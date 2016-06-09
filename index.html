@@ -1,0 +1,115 @@
+<style>
+  html {
+    background: #f3f5f6;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+
+  body {
+    margin: 0;
+    padding: 2em;
+  }
+
+  @media (max-width: 30em) {
+    body {
+      padding: 0;
+    }
+  }
+
+  * {
+    box-sizing: inherit;
+  }
+
+  section {
+    padding: 2em 2em 1.75em;
+    width: 40em;
+    margin: 0 auto 2em;
+    max-width: 100%;
+    background: #fff;
+  }
+
+  @media (max-width: 30em) {
+    section {
+      margin-bottom: 1px;
+    }
+  }
+
+  h1, p {
+    font-family: Georgia, serif;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 0 1.17em;
+    color: #333;
+  }
+
+  h2 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: #333;
+    margin: 3em 0 .8em;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 1.75;
+    margin: 0 0 1.17em;
+    color: #333;
+  }
+
+  p a {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+  }
+
+  .blue h2, h2.blue {
+    color: rgb(0, 98, 255)
+  }
+
+  .blue p a, p.blue a, p a.blue {
+    box-shadow: inset 0 -3px rgba(0, 98, 255, .2)
+  }
+
+  .red h2, h2.red {
+    color: rgb(255, 87, 34)
+  }
+
+  .red p a, p.red a, p a.red {
+    box-shadow: inset 0 -3px rgba(255, 87, 34, .2)
+  }
+
+  * > *:first-child {
+    margin-top: 0;
+  }
+
+  * > *:last-child {
+    margin-bottom: 0;
+  }
+</style>
+
+<section>
+  <h1>Minimalist</h1>
+
+  <p>This is a minimalist website. It uses very little CSS to achieve a design which is simple and elegant, responsive, and lightweight. It supports styles for <code>h1</code>, <code>h2</code>, <code>p</code>, and <code>a</code>, and nothing else. One day it might do a little bit more.</p>
+
+  <h2>Lorem Ipsum</h2>
+
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', <a href>making it look</a> like readable English.</p>
+
+  <h2>What up?</h2>
+
+  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+
+  <p>You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+</section>
+
+<section class="blue">
+  <h2>About</h2>
+
+  <p>This site was made by <a href="http://adamschwartz.co">Adam Schwartz</a>, a front-end dev from Cambridge, MA. It was written in about 30 minutes on June 9, 2016.</p>
+</section>
